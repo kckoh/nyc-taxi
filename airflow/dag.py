@@ -26,7 +26,7 @@ DEFAULT_ARGS = {
     'owner': 'wcd_data_engineer',
     'depends_on_past': False,
     'start_date': airflow.utils.dates.days_ago(0),
-    # 'email': ['airflow_data_eng@wcd.com'],
+    # 'email': ['airflow_data_eng@example.com'],
     'email_on_failure': False,
     'e,ail_on_retry': False
 }
