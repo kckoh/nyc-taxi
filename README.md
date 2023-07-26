@@ -1,7 +1,7 @@
-# nyc-taxi
+# nyc-taxi | Event-Driven architecture
 
 <img src="./images/architecture.png" alt="Image Description" width="400" height="300">
-# Event Driven Project
+
 
 # Overview
 
