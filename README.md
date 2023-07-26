@@ -13,9 +13,6 @@ To build the event-driven pipeline within the AWS infrastructures.
     - I chose New York City Taxi and Limousine Commission (TLC) Trip Record Data because it offers data from 2009 to 2023. It is well documented and is provided in a parquet format.
     - The data is offered in a parquet format
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c6c98b9-a04e-42d2-92d2-da3513845838/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/552dd115-0d49-4b7b-8556-c2f551fac23c/Untitled.png)
     
 - S3
     - the folder structure
