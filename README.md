@@ -33,9 +33,10 @@ To build the event-driven pipeline within the AWS infrastructures.
     - a dockerized container in EC2
     - visualize the dataset with AWS Athena
 
-## any other workflow
+## any other workflow explanation
 - EMR
     - Runs the spark job and performs an ETL with the given file
+    - spark-submit is used to trigger the job
     - the spark code is stored under s3/python folder
 - Glue
     - manually runs the cralwing to update the catalog for Athena
