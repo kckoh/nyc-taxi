@@ -12,6 +12,7 @@ To build the event-driven pipeline within the AWS infrastructures.
         - AWS registry exists to help people discover and share datasets that are available via AWS resources
     - I chose New York City Taxi and Limousine Commission (TLC) Trip Record Data because it offers data from 2009 to 2023. It is well documented.
     - The data is offered in a parquet format.
+    - Fields of the data can be found in this page: https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
     
 ## Folder structures
 - nyc-taxi-project
