@@ -13,8 +13,10 @@ SPARK_STEPS = [
             'Jar': 'command-runner.jar',
             'Args': [
                 '/usr/bin/spark-submit',
+                '--master', 'yarn',
+                '--deploy-mode', 'client',
                 '-c', "spark.executorEnv.S3PATH={{task_instance.xcom_pull('parse_request', key='data') }}",
-                's3://nyc-taxi-project/python/test.py',
+                's3://nyc-taxi-project/python/spark.py',
             ]
         }
     }
