@@ -40,8 +40,22 @@ To build the event-driven pipeline within the AWS infrastructures.
     - spark-submit is used to trigger the job.
     - the spark code is stored under s3/python folder.
 - Glue
-    - manually runs the cralwing to update the catalog for Athena
+    - manually runs the crawling to update the catalogue for Athena
 - Athena
-    - Athena can be run with the supserset or manually run in the aws service.
+    - Athena can be run with the superset or manually run in the AWS service.
+
+## Video Demo
+- Ingestion and Airflow
+
+https://github.com/kckoh/nyc-taxi/assets/43446639/b3db49c1-45ad-495c-ae23-ce84a7341fc6
+
+- EMR
+  
+https://github.com/kckoh/nyc-taxi/assets/43446639/cba12ebb-fce1-4802-a17c-65d37e61cecb
+
+
+- Crawling with Athena
+
+https://github.com/kckoh/nyc-taxi/assets/43446639/fad67b95-0042-4217-bcc5-fad610e28373
 
 
